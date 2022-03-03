@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA4052AC27CD0DA200FD10DA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = CA4052AB27CD0DA200FD10DA /* main.c */; };
+		CA4052B427CD0E4D00FD10DA /* string_comparer.c in Sources */ = {isa = PBXBuildFile; fileRef = CA4052B327CD0E4D00FD10DA /* string_comparer.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		CA4052A827CD0DA200FD10DA /* 240_String_Comparer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 240_String_Comparer; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA4052AB27CD0DA200FD10DA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		CA4052B227CD0DEB00FD10DA /* string_comparer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = string_comparer.h; sourceTree = "<group>"; };
+		CA4052B327CD0E4D00FD10DA /* string_comparer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = string_comparer.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				CA4052AB27CD0DA200FD10DA /* main.c */,
+				CA4052B227CD0DEB00FD10DA /* string_comparer.h */,
+				CA4052B327CD0E4D00FD10DA /* string_comparer.c */,
 			);
 			path = 240_String_Comparer;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4052AC27CD0DA200FD10DA /* main.c in Sources */,
+				CA4052B427CD0E4D00FD10DA /* string_comparer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

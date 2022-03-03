@@ -8,5 +8,7 @@
 #ifndef string_comparer_h
 #define string_comparer_h
 
+int compare_string(const void* a, const void* b);
+int compare_string_desc(const void* a, const void* b);
 
 #endif /* string_comparer_h */
